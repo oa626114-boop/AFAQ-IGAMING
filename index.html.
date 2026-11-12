@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AFAQ iGAMING</title>
+<style>
+:root {
+  --navy:#123c49;
+  --navy2:#092a35;
+  --gold:#d8b45c;
+  --text:#f5e9c8;
+}
+* {box-sizing:border-box}
+body {
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:var(--navy2);
+  color:var(--text);
+}
+header {
+  padding:22px;
+  background:var(--navy);
+  border-bottom:1px solid var(--gold);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.logo {font-size:22px;font-weight:bold;color:var(--gold)}
+nav a {
+  color:var(--text);
+  text-decoration:none;
+  margin:0 8px;
+  font-size:13px;
+}
+.hero {
+  text-align:center;
+  padding:75px 20px;
+  background:linear-gradient(135deg,#123c49,#071f29);
+}
+.hero h1 {
+  color:var(--gold);
+  font-size:38px;
+}
+.hero p {line-height:1.8;color:#eee0bd}
+.btn {
+  display:inline-block;
+  padding:13px 24px;
+  background:var(--gold);
+  color:#092a35;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:bold;
+  margin-top:15px;
+}
+section {padding:35px 20px}
+h2 {color:var(--gold);text-align:center}
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+  gap:16px;
+  max-width:1050px;
+  margin:25px auto;
+}
+.card {
+  background:var(--navy);
+  border:1px solid #9c8148;
+  padding:23px;
+  border-radius:10px;
+}
+.card h3 {color:var(--gold)}
+.card p {line-height:1.6;color:#e6dcc4}
+footer {
+  padding:25px;
+  text-align:center;
+  border-top:1px solid var(--gold);
+  color:#d8b45c;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">AFAQ iGAMING</div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#technology">Technology</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>GLOBAL GAMING TECHNOLOGY</h1>
+  <p>
+    Advanced B2B iGaming Software Solutions<br>
+    Sportsbook Technology | Casino Integration | API
+  </p>
+  <a href="#services" class="btn">Explore Solutions</a>
+</div>
+
+<section id="services">
+  <h2>OUR SOLUTIONS</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Gaming Platform</h3>
+      <p>Custom gaming platform development and management systems.</p>
+    </div>
+    <div class="card">
+      <h3>Sportsbook API</h3>
+      <p>Sports data and licensed sportsbook provider integration.</p>
+    </div>
+    <div class="card">
+      <h3>Casino Integration</h3>
+      <p>Third-party gaming provider integration for licensed operators.</p>
+    </div>
+    <div class="card">
+      <h3>API Center</h3>
+      <p>Centralized API connectivity and integration management.</p>
+    </div>
+    <div class="card">
+      <h3>Partner Management</h3>
+      <p>Business partners, providers and client administration.</p>
+    </div>
+    <div class="card">
+      <h3>Analytics</h3>
+      <p>Business reports, performance monitoring and analytics.</p>
+    </div>
+  </div>
+</section>
+
+<section id="technology">
+  <h2>OUR TECHNOLOGY</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Secure Architecture</h3>
+      <p>Modern, scalable and modular software infrastructure.</p>
+    </div>
+    <div class="card">
+      <h3>API Infrastructure</h3>
+      <p>REST APIs and WebSocket integration architecture.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>BUSINESS PARTNERSHIPS</h2>
+  <p style="text-align:center">
+    Technology solutions for licensed gaming operators worldwide.
+  </p>
+</section>
+
+<footer>
+  AFAQ iGAMING © 2026<br>
+  GLOBAL GAMING TECHNOLOGY SOLUTIONS
+</footer>
+
+</body>
+</html>
